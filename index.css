@@ -348,3 +348,101 @@ form input:last-child {
     margin-top: 10px;
     color: #7E7D7D;
 }
+
+
+/*--My projects--*/
+
+.projects {
+    width: 100%;
+    height: 75vh;
+    margin-top: -30px;
+}
+
+.project-heading {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project {
+    width: 310px;
+    height: 290px;
+    text-align: center;
+    box-shadow: 5px 5px 15px #ffffff;
+    border: none;
+    border-radius: 40px;
+    position: relative;
+    margin-left: 10px;
+}
+
+.project:hover {
+    background-color: #f5deb3;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.3s;
+}
+
+.project-name {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: calibri;
+    color: #3e3d3d;
+    margin-top: -1px;
+}
+
+.project-info {
+    color: #575454;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.repo {
+    border: 2px solid #030303;
+    color: #373636;
+    width: 100px;
+    height: 30px;
+    border-radius: 100px;
+    font-size: 15px;
+}
+
+.live {
+    color: #373636;
+    border: 2px solid #030303;
+    width: 100px;
+    height: 30px;
+    border-radius: 100px;
+    font-size: 15px;
+}
+
+.repo:hover {
+    background-color: #373636;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.5s;
+    color: #cbcbcb;
+}
+
+.live:hover {
+    background-color: #373636;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.5s;
+    color: #cbcbcb;
+}
+
+button:active {
+    transform: scale(1.1);
+}
+
+.insurence,
+.javascript,
+.portfolio {
+    width: 310px;
+    height: 170px;
+    border-radius: 40px;
+}
