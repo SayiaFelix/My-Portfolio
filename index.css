@@ -1,0 +1,164 @@
+body {
+    background-color: #eee8e8;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+html {
+    border: 2px solid black;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+/*----header container--*/
+
+header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: #f8f5f5;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.3);
+    padding: 0px 5%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 30px;
+    font-family: sans-serif;
+    color: #504b4b;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+nav ul li a:hover {
+    background-color: rgb(243, 243, 243);
+    border-radius: 5px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.2s;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    color: #575454;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.logo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.active {
+    font-weight: 500;
+    color: #1a1414;
+}
+
+
+/*---info container--*/
+
+.info-container {
+    position: absolute;
+    left: 15%;
+    top: 42%;
+    transform: translate(-15%, -42%);
+}
+
+.info-container P:nth-child(1) {
+    font-family: calibri;
+    font-weight: bold;
+    color: #575454;
+    font-size: 30px;
+}
+
+.info-container P:nth-child(2) {
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #030303;
+    font-size: 55px;
+    line-height: 2px;
+}
+
+.info-container P:nth-child(3) {
+    font-family: myriad pro regular;
+    color: #575454;
+    font-size: 33px;
+    line-height: 35px;
+}
+
+.info-container p {
+    line-height: 0px;
+    margin: 49px 0px 25px;
+}
+
+.info-container button {
+    width: 130px;
+    height: 40px;
+    border-radius: 15px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 18px;
+    outline: none;
+}
+
+form {
+    width: 350px;
+    max-width: 100%;
+    position: relative;
+}
+
+form input:first-child {
+    display: inline block;
+    width: 50%;
+    padding: 5px 100px 5px 13px;
+    border-radius: 30px;
+    outline: none;
+    border: 2px solid black;
+    font-size: 15px;
+}
+
+form input:last-child {
+    position: absolute;
+    display: inline block;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    border: 2px solid black;
+    background-color: #eee8e8;
+    color: black;
+    box-shadow: 0px 0px 5px;
+    right: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.image {
+    height: 486px;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: tramslateX(-50%);
+    overflow: hidden;
+    border-radius: 40px;
+}
