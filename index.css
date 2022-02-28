@@ -627,3 +627,105 @@ button:active {
     font-weight: bold;
     text-align: center;
 }
+
+
+/*footer part*/
+
+.footer {
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 20px;
+}
+
+.footer p {
+    font-family: calibri;
+}
+
+.footer p:nth-child(1) {
+    font-size: 35px;
+    font-weight: bold;
+    color: #191919;
+    line-height: 2px;
+}
+
+.footer p:nth-child(2) {
+    font-size: 20px;
+    color: #7e7d7d;
+    text-align: center;
+    margin-top: -10px;
+}
+
+#footer {
+    display: flex;
+}
+
+.communication-container a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    margin: 20px 10px;
+    border-radius: 50%;
+    margin-top: -1px;
+}
+
+.communication-container {
+    display: flex
+}
+
+.Copyright {
+    color: #141313;
+    font-size: 20px;
+    position: absolute;
+    bottom: 9px;
+}
+
+.communication-container i {
+    color: #000000;
+    font-size: 25px;
+}
+
+.communication-container a:hover,
+.communication a:hover {
+    background-color: #000000;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.5s;
+}
+
+.communication-container a:hover i,
+.communication a:hover i {
+    color: #ffffff;
+    transition: all ease 0.5s;
+}
+
+.communication {
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+}
+
+.communication a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 40px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 0px;
+    border-radius: 10px;
+    background-color: wheat;
+    border: 1px solid #cbcbcb;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.communication i {
+    color: #2b2b2b;
+    font-size: 25px;
+}
